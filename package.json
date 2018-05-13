@@ -8,7 +8,7 @@
     "build:watch": "webpack -w --hide-modules --colors --progress --mode=development",
     "serve": "browser-sync start --server \"./public/\" --files \"./public/*.js\" --port 3000",
     "start": "run-p -r serve build:watch",
-    "build:prod": "webpack -p --mode=production",
+    "build:prod": "cp _redirects public/_redirects && webpack -p --mode=production",
     "lint:js": "npm run prettier && xo --fix",
     "lint:css": "stylelint src/**/*.css --fix",
     "lint": "npm run lint:js && npm run lint:css",
@@ -62,5 +62,8 @@
       "document",
       "window"
     ]
+  },
+  "dependencies": {
+    "vanilla-commons": "^1.4.0"
   }
 }

@@ -1,8 +1,7 @@
-import style from './style.css'
+import showCase from './showcase'
+import './style.css'
 
-const h1 = document.createElement('h1')
-
-h1.textContent = 'Vitrine'
-h1.setAttribute('class', style.title)
-
-document.body.appendChild(h1)
+showCase({
+  selector: '#vitrine',
+  url: 'http://roberval.chaordicsystems.com/challenge/challenge.json?callback=X'
+})
