@@ -11,4 +11,4 @@ $ npm i
 $ npm start
 ```
 
-Now access the applicattion at [localhost:3000](http://localhost:3000) in your machine, or you can see here [https://vitrine-list.netlify.com/](https://vitrine-list.netlify.com/)
+Now access the applicattion at [localhost:3000](http://localhost:3000) in your machine, or you can see here [http://vitrine-list.netlify.com/](http://vitrine-list.netlify.com/)
