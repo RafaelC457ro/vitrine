@@ -4,7 +4,6 @@ Just a Showcase Sample
 
 ```sh
 # Install the dependencies
-$ npm cp .env.exemple .env
 $ npm i
 
 # Start a webpack build in watch mode and a webserver with livereloading
