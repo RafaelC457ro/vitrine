@@ -1,7 +1,6 @@
 import container from './container'
 
 const init = selector => ({data}) => {
-  console.log(data)
   const wrapper = document.querySelector(selector)
   wrapper.appendChild(container(data))
   delete window.X
